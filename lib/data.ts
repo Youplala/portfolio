@@ -67,20 +67,8 @@ export const projectsData = [
       "This app won the Dash-GPT Challenge organized by Plotly. It uses GPT-3 to generate interactive charts from natural language.",
     tags: ["Python", "Dash", "Plotly", "GPT"],
     imageUrl: chartgptImg,
-  },
-  {
-    title: "ChartGPT",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    codeUrl: "https://github.com/Youplala/chartgpt",
+    demoUrl: "https://youplala-chartgpt.hf.space/",
   },
 ] as const;
 
