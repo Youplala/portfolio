@@ -18,31 +18,14 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+      <p class="font-medium">
+        Graduated in <span className="font-medium">Artificial Intelligence</span> from CY Tech, and dove headfirst into the world of Deep Learning, NLP, and Big Data. I'm a passionate <span className="font-medium">Machine Learning Engineer</span>, blending software artistry with the power of data.
+        With <span className="font-medium">1.5 years</span> in a cutting-edge retail-tech startup, I mastered Python, Bash, and more. Pandas, Dash and Plotly are my playgrounds.
 
+        Beyond data, I game, watch movies, and hang with my dog. Curiosity fuels my journey into <span className="font-medium">history, philosophy,</span> and guitar strumming.
+      </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        Ready to write the next chapter in machine learning and software. Open to meaningful opportunities.
       </p>
     </motion.section>
   );
