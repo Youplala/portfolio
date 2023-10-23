@@ -18,7 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p class="font-medium">
+      <p className="font-medium">
         Graduated in <span className="font-medium">Artificial Intelligence</span> from CY Tech, and dove headfirst into the world of Deep Learning, NLP, and Big Data. I'm a passionate <span className="font-medium">Machine Learning Engineer</span>, blending software artistry with the power of data.
         With <span className="font-medium">1.5 years</span> in a cutting-edge retail-tech startup, I mastered Python, Bash, and more. Pandas, Dash and Plotly are my playgrounds.
 
