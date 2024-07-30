@@ -40,7 +40,7 @@ export default function Project({
           <div className="absolute top-4 left-4 flex gap-2">
             <a
               href={codeUrl}
-              className="group text-gray-900 flex items-center outline-none"
+              className="group text-gray-900 flex items-center p-2 rounded-full hover:bg-gray-300 transition hover:scale-105"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -48,14 +48,14 @@ export default function Project({
             </a>
             <a
               href={demoUrl}
-              className="group text-gray-900 flex items-center outline-none"
+              className="group text-gray-900 flex items-center p-2 rounded-full hover:bg-gray-300 transition hover:scale-105"
               target="_blank"
               rel="noopener noreferrer"
             >
               <BsBoxArrowUpRight className="transition" />
             </a>
           </div>
-          <h3 className="text-2xl font-semibold mt-12">{title}</h3>
+          <h3 className="text-2xl font-semibold mt-16">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
