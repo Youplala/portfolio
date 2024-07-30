@@ -40,19 +40,19 @@ export default function Project({
           <div className="absolute top-4 left-4 flex gap-2">
             <a
               href={codeUrl}
-              className="group bg-gray-900 text-white p-2 flex items-center rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
+              className="group text-gray-900 flex items-center outline-none"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub className="opacity-70 group-hover:translate-x-1 transition" />
+              <FaGithub className="transition" />
             </a>
             <a
               href={demoUrl}
-              className="group bg-gray-900 text-white p-2 flex items-center rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
+              className="group text-gray-900 flex items-center outline-none"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <BsBoxArrowUpRight className="opacity-70 group-hover:translate-x-1 transition" />
+              <BsBoxArrowUpRight className="transition" />
             </a>
           </div>
           <h3 className="text-2xl font-semibold mt-12">{title}</h3>
