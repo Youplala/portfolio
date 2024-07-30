@@ -4,6 +4,8 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
+import { BsBoxArrowUpRight } from "react-icons/bs";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -41,15 +43,21 @@ export default function Project({
           {/* Add Code and Live Demo buttons */}
           <div className="flex mt-auto gap-2">
             <a
-             href={codeUrl}
-              className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-white dark:bg-opacity-10 disabled:scale-100 disabled:bg-opacity-65"
+              href={codeUrl}
+              className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
+              target="_blank"
+              rel="noopener noreferrer"
             >
+              <FaGithub className="opacity-70 group-hover:translate-x-1 transition" />
               Code
             </a>
             <a
               href={demoUrl}
-              className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-white dark:bg-opacity-10 disabled:scale-100 disabled:bg-opacity-65"
+              className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
+              target="_blank"
+              rel="noopener noreferrer"
             >
+              <BsBoxArrowUpRight className="opacity-70 group-hover:translate-x-1 transition" />
               Demo
             </a>
           </div>
