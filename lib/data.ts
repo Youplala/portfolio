@@ -97,6 +97,7 @@ export const projectsData = [
     tags: ["Python", "Random Forest", "KNN", "Logistic Regression"],
     imageUrl: fishWatchImg,
     codeUrl: "https://github.com/Youplala/FishWatch",
+    demoUrl: "",
   },
 ] as const;
 
