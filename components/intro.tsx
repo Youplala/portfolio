@@ -9,7 +9,6 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import profileImg from "@/public/profile_pic.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -32,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src=profileImg
+              src="https://avatars.githubusercontent.com/u/32967983?v=4"
               alt="Elie Portrait"
               width="192"
               height="192"
