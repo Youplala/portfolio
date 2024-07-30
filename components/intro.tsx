@@ -62,10 +62,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Elie.</span> I'm a{" "}
-        <span className="font-bold">Machine Learning Engineer</span> with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy
-        building <span className="italic">AI-powered applications</span> mostly using{" "}
+        <span className="font-bold">Hi, I'm Elie!</span>{" "}
+        <span className="font-bold">A French software engineer</span> passionate about{" "}
+        <span className="font-bold">data</span> and <span className="font-bold">AI</span>. I love
+        building <span className="italic">AI-powered applications</span> using{" "}
         <span className="underline">Python</span>.
       </motion.h1>
 
@@ -77,7 +77,7 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        <Link
+        {/* <Link
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
@@ -87,11 +87,11 @@ export default function Intro() {
         >
           Contact me{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-        </Link>
+        </Link> */}
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
+          href="/ML_Resume.pdf"
           download
         >
           Resume{" "}

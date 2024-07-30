@@ -19,13 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="font-medium">
-        Graduated in <span className="font-medium">Artificial Intelligence</span> from CY Tech, and dove headfirst into the world of Deep Learning, NLP, and Big Data. I'm a passionate <span className="font-medium">Machine Learning Engineer</span>, blending software artistry with the power of data.
-        With <span className="font-medium">1.5 years</span> in a cutting-edge retail-tech startup, I mastered Python, Bash, and more. Pandas, Dash and Plotly are my playgrounds.
-
-        Beyond data, I game, watch movies, and hang with my dog. Curiosity fuels my journey into <span className="font-medium">history, philosophy,</span> and guitar strumming.
-      </p>
-      <p>
-        Ready to write the next chapter in machine learning and software. Open to meaningful opportunities.
+      As a passionate Machine Learning Engineer with a strong background in Artificial Intelligence, I'm excited to bring my skills and experience to a new challenge. With a Master's degree in Computer Science - Artificial Intelligence Specialization from CY Tech, I've developed expertise in Deep Learning, NLP, and Big Data.
       </p>
     </motion.section>
   );
