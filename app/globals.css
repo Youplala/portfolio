@@ -13,3 +13,7 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+body {
+  cursor: url('../public/baguette-svgrepo-com.svg'), auto;
+}
