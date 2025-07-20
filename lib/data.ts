@@ -1,10 +1,41 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import {
+  FaReact,
+  FaPython,
+  FaHtml5,
+  FaCss3Alt,
+  FaDocker,
+  FaAws,
+  FaLinux,
+  FaGithub,
+  FaLink,
+  FaJava,
+} from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { MdOutlineQueryStats } from "react-icons/md";
 import { LuBrainCircuit } from "react-icons/lu";
 import { FaDatabase } from "react-icons/fa6";
+import {
+  SiPytorch,
+  SiScikitlearn,
+  SiKeras,
+  SiTensorflow,
+  SiPandas,
+  SiNumpy,
+  SiPlotly,
+  SiFastapi,
+  SiFlask,
+  SiGnubash,
+  SiPowershell,
+  SiKubernetes,
+  SiGooglecloud,
+  SiMicrosoftazure,
+  SiAlibabacloud,
+  SiTypescript,
+
+} from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io5";
 import chartgptImg from "@/public/chartgpt_screenshot.png";
 import fishWatchImg from "@/public/WorldMap.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -82,7 +113,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "ChartGPT-Dash",
+    title: "ChartGPT",
     description:
       "This app won the Dash-GPT Challenge organized by Plotly. It uses LLMs to generate interactive Plotly charts from natural language.",
     tags: ["Python", "Dash", "Plotly", "LLMs", "HuggingFace"],
@@ -102,31 +133,53 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "Python",
-  "Transformers",
-  "LangChain",
-  "Bash",
-  "SQL",
-  "JavaScript",
-  "React",
-  "HTML",
-  "CSS",
-  "FastAPI",
-  "Pandas",
-  "Plotly",
-  "Scikit-learn",
-  "PyTorch",
-  "Flask",
-  "Dash",
-  "Tensorflow",
-  "PowerShell",
-  "Keras",
-  "NumPy",
-  "GitHub",
-  "Docker",
-  "Azure",
-  "Kubernetes",
-  "GCP",
-  "AWS",
-  "Linux"
+  {
+    category: "AI & Machine Learning",
+    skills: [
+      { name: "Transformers", icon: React.createElement(LuBrainCircuit) },
+      { name: "LangChain", icon: React.createElement(FaLink) },
+      { name: "PyTorch", icon: React.createElement(SiPytorch) },
+      { name: "Scikit-learn", icon: React.createElement(SiScikitlearn) },
+      { name: "Keras", icon: React.createElement(SiKeras) },
+      { name: "Tensorflow", icon: React.createElement(SiTensorflow) },
+      { name: "Pandas", icon: React.createElement(SiPandas) },
+      { name: "NumPy", icon: React.createElement(SiNumpy) },
+      { name: "Plotly", icon: React.createElement(SiPlotly) },
+    ],
+  },
+  {
+    category: "Web Development",
+    skills: [
+      { name: "JavaScript", icon: React.createElement(IoLogoJavascript) },
+      { name: "TypeScript", icon: React.createElement(SiTypescript) },
+      { name: "HTML", icon: React.createElement(FaHtml5) },
+      { name: "CSS", icon: React.createElement(FaCss3Alt) },
+      { name: "FastAPI", icon: React.createElement(SiFastapi) },
+      { name: "Flask", icon: React.createElement(SiFlask) },
+      { name: "Dash", icon: React.createElement(SiPlotly) },
+    ],
+  },
+  {
+    category: "Languages",
+    skills: [
+      { name: "Python", icon: React.createElement(FaPython) },
+      { name: "Java", icon: React.createElement(FaJava) },
+      { name: "SQL", icon: React.createElement(FaDatabase) },
+      { name: "Bash", icon: React.createElement(SiGnubash) },
+      { name: "PowerShell", icon: React.createElement(SiPowershell) },
+    ],
+  },
+  {
+    category: "DevOps & Cloud",
+    skills: [
+      { name: "Docker", icon: React.createElement(FaDocker) },
+      { name: "Kubernetes", icon: React.createElement(SiKubernetes) },
+      { name: "AWS", icon: React.createElement(FaAws) },
+      { name: "GCP", icon: React.createElement(SiGooglecloud) },
+      { name: "Azure", icon: React.createElement(SiMicrosoftazure) },
+      { name: "Linux", icon: React.createElement(FaLinux) },
+      { name: "GitHub", icon: React.createElement(FaGithub) },
+      { name: "Aliyun", icon: React.createElement(SiAlibabacloud) },
+    ],
+  },
 ] as const;

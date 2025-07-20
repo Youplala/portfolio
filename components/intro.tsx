@@ -18,9 +18,9 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="mb-28 max-w-[50rem] sm:mb-0 scroll-mt-[100rem]"
     >
-      <div className="flex items-center justify-center">
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-8 mb-10">
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -29,20 +29,21 @@ export default function Intro() {
               type: "tween",
               duration: 0.2,
             }}
+            className="h-32 w-32 rounded-full border-[0.35rem] border-white shadow-xl overflow-hidden"
           >
             <Image
               src="https://avatars.githubusercontent.com/u/32967983?v=4"
-              alt="Elie Portrait"
+              alt="Elie Brosset portrait"
               width="192"
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-full w-full object-cover"
             />
           </motion.div>
 
           <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
+            className="absolute bottom-0 right-0 text-5xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -55,19 +56,20 @@ export default function Intro() {
             👋
           </motion.span>
         </div>
-      </div>
 
-      <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <span className="font-bold">Hi, I'm Elie!</span>{" "}
-        <span className="font-bold">A French software engineer</span> passionate about{" "}
-        <span className="font-bold">data</span> and <span className="font-bold">AI</span>. I love
-        building <span className="italic">AI-powered applications</span> using{" "}
-        <span className="underline">Python</span>.
-      </motion.h1>
+        <motion.div
+          className="text-left"
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+        >
+          <h1 className="text-2xl font-medium !leading-[1.5] sm:text-3xl font-mono">
+            <span className="font-bold">Hi, I'm Elie!</span> A software engineer
+            from Paris, with a passion for turning data into intelligent,
+            AI-powered applications. I'm always looking for new challenges and
+            opportunities to learn and grow.
+          </h1>
+        </motion.div>
+      </div>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -77,18 +79,6 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        {/* <Link
-          href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
-          onClick={() => {
-            setActiveSection("Contact");
-            setTimeOfLastClick(Date.now());
-          }}
-        >
-          Contact me{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-        </Link> */}
-
         <a
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
           href="/ML_Resume.pdf"
