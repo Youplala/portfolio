@@ -37,6 +37,7 @@ import {
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import chartgptImg from "@/public/chartgpt_screenshot.png";
+import dripinImg from "@/public/dripin_screenshot.png";
 import fishWatchImg from "@/public/WorldMap.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -70,45 +71,45 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "BSc in Data Science and Modeling",
-    location: "CY Cergy Paris Université | Cergy",
+    title: "Data Engineer",
+    location: "Advanced Schema | Paris",
     description:
-      "Graduated a Bachelor degree specialized in Data Science where I learned all about data analysis, statistics, data structures and data processing.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2018 - 2022",
-  },
-  {
-    title: "MSc in Computer Science - AI Specialization",
-    location: "CY Tech | Cergy",
-    description:
-      "Graduated a Masters in AI where I learned all about Machine Learning, Docker, NLP, cloud computing and much more.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2018 - 2023",
-  },
-  {
-    title: "Data Science Intern",
-    location: "Humanitics.ai | Paris",
-    description:
-      "I did an internship in a retail-tech startup building a ML product doing predictive analysis and clustering on sales in retail boutiques all around France.",
-    icon: React.createElement(MdOutlineQueryStats),
-    date: "2021",
+      "Consulting for Louis Vuitton working on high-performance data pipelines and real-time APIs.",
+    icon: React.createElement(FaDatabase),
+    date: "2023 - present",
   },
   {
     title: "Machine Learning Engineer",
     location: "Humanitics.ai | Paris",
     description:
-      "I worked as a ML Engineer for a year in a retail-tech startup, it was the perfect opportunity to gain autonomy and learn how to be efficient.",
+      "I worked as a ML Engineer in a retail-tech startup, building dashboards and a recommendation engine for store managers.",
     icon: React.createElement(LuBrainCircuit),
     date: "2022 - 2023",
   },
   {
-    title: "Data Engineer",
-    location: "Advanced Schema | Paris",
-    description:
-      "I'm now a full-time consultant for LVMH working on various big-scales projects from data pipelines to building APIs and visualizations.",
-    icon: React.createElement(FaDatabase),
-    date: "2023 - present",
-  },
+    title: "Data Science Intern",
+      location: "Humanitics.ai | Paris",
+      description:
+        "I did an internship in a retail-tech startup building a ML product doing predictive analysis and clustering on sales in retail boutiques all around France.",
+      icon: React.createElement(MdOutlineQueryStats),
+      date: "2021",
+    },
+    {
+      title: "MSc in Computer Science - AI Specialization",
+      location: "CY Tech | Cergy",
+      description:
+        "Graduated a Masters in AI where I learned all about Machine Learning, Docker, NLP, cloud computing and much more.",
+      icon: React.createElement(LuGraduationCap),
+      date: "2018 - 2023",
+    },
+    {
+      title: "BSc in Data Science and Modeling",
+      location: "CY Cergy Paris Université | Cergy",
+      description:
+        "Graduated a Bachelor degree specialized in Data Science where I learned all about data analysis, statistics, data structures and data processing.",
+      icon: React.createElement(LuGraduationCap),
+      date: "2018 - 2022",
+    },
 ] as const;
 
 export const projectsData = [
@@ -120,6 +121,15 @@ export const projectsData = [
     imageUrl: chartgptImg,
     codeUrl: "https://github.com/Youplala/chartgpt",
     demoUrl: "https://youplala-chartgpt.hf.space/",
+  },
+  {
+    title: "DripIn",
+    description:
+      "Virtual try-on app for any clothing piece using AI inpainting.",
+    tags: ["NextJS", "TypeScript", "HuggingFace", "Vercel"],
+    imageUrl: dripinImg,
+    codeUrl: "",
+    demoUrl: "https://dripin.app",
   },
   {
     title: "FishWatch",
