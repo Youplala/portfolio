@@ -36,6 +36,7 @@ import {
 
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
+import onmangeouImg from "@/public/onmangeou_screenshot.png";
 import chartgptImg from "@/public/chartgpt_screenshot.png";
 import dripinImg from "@/public/dripin_screenshot.png";
 import fishWatchImg from "@/public/WorldMap.png";
@@ -113,6 +114,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "On mange où ?",
+    description:
+      "Vote for the restaurant you want to eat at with your friends.",
+    tags: ["NextJS", "TypeScript", "Tailwind", "Socket.io"],
+    imageUrl: onmangeouImg,
+    codeUrl: "https://github.com/Youplala/onmangeou",
+    demoUrl: "https://onmangeou-six.vercel.app/",
+  },
   {
     title: "ChartGPT",
     description:
