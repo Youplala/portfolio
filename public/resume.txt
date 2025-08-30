@@ -1,0 +1,57 @@
+Elie Brosset
+AI/ML Engineer
+Paris, France | +33 6 88 64 17 23 | eliebrosset@gmail.com
+LinkedIn: https://www.linkedin.com/in/elibrosset | GitHub: https://github.com/youplala | Portfolio: https://brosset.li
+
+SUMMARY
+AI/ML engineer with experience shipping LLM-powered data applications and ML systems to production (LVMH, Louis Vuitton). Winner of Plotly’s Dash‑GPT Challenge (ChartGPT, 100+ GitHub stars). Strong in Python, Transformers/HuggingFace, LangChain, PyTorch, Pandas, Plotly, FastAPI/Flask, CI/CD, Docker, Kubernetes, and cloud (AWS/GCP/Azure). Seeking Applied LLM/AI Engineer roles building and evaluating LLM products end-to-end.
+
+SKILLS
+Languages: Python, Java, TypeScript, JavaScript, SQL, Bash
+LLM/ML: Transformers, HuggingFace, LangChain, PyTorch, Scikit-learn, OpenAI API, CLIP
+Data/Visualization: Pandas, Plotly, Dash
+Backend/Web: FastAPI, Flask, Next.js, Angular, Spring Boot
+DevOps/Cloud: GitHub Actions (CI/CD), Docker, Kubernetes, AWS, GCP, Azure
+Other: A/B testing, experiment design, data pipelines (Talend), privacy compliance (PIPL)
+
+EXPERIENCE
+Advanced Schema — Data Engineer
+Paris, France | 2023-10 – Present
+- Designed real-time sales data pipelines for Louis Vuitton in China with PIPL compliance; integrated with a Java backend.
+- Automated HR data extraction and processing for 200k LVMH employees via Talend jobs; reduced task time by 90%.
+- Added dynamic Excel formula generation to a Python Flask API; cut manual workload in HR operations.
+- Built a responsive JS frontend with async Flask calls; improved page load times by ~50%.
+
+Humanitics.ai — Machine Learning Engineer
+Paris, France | 2022-09 – 2023-09
+- Built ChartGPT (natural-language → Plotly visualizations); 100+ GitHub stars; winner of Plotly Dash‑GPT Challenge.
+- Developed evaluation pipelines for predictive retail ML; improved model accuracy by ~25%.
+- Created custom A/B testing workflows to compare ML model variants; informed product rollout decisions.
+
+Humanitics.ai — Data Science Intern
+Paris, France | 2022-02 – 2022-08
+- Optimized RFID-based dashboards; reduced customer wait times in Lacoste stores by ~20%.
+- Benchmarked retail traffic forecasting models; improved accuracy by ~15%.
+- Delivered predictive workload models; increased operational efficiency by ~25%.
+
+Learning Planet Institute — Data Science Research Intern
+Paris, France | 2021-02 – 2021-07
+- Analyzed 400k+ French PhD theses with NLP; built RShiny visualizations of research trends.
+- Extracted n-grams for domain classification and topic exploration.
+
+PROJECTS
+ChartGPT — https://github.com/youplala/chartgpt | 100+⭐ | Python, LLMs, Pandas, Plotly, GitHub Actions
+- Natural-language chart generation with GPT‑4 + Pandas; CI/CD optimized packaging (~80% faster).
+
+ChartGPT‑Dash — https://github.com/youplala/chartgpt-dash | 30+⭐ | Python, Dash, LLMs, HuggingFace Spaces
+- Winner: Plotly Dash‑GPT Challenge. Productionized NL → Plotly charts with Dash + LLMs.
+
+Text2ImageSearch — https://github.com/youplala/text2imagesearch | Python, Transformers (CLIP), Docker
+- CLIP-based vector search app enabling text-to-image retrieval.
+
+FishWatch — https://github.com/youplala/fishwatch | Python, Scikit-learn
+- Random Forest / Logistic Regression / KNN models to predict illegal vessel encounters (93% accuracy).
+
+EDUCATION
+CY Tech — MSc, Computer Science (AI Specialization) | 2018 – 2023 | Paris, France
+CY Cergy Paris Université — BSc, Data Science and Modeling | 2018 – 2022 | Paris, France

@@ -1,0 +1,6 @@
+# Robots.txt for brosset.li
+# Allow all crawlers to access the entire site, including resume files.
+
+User-agent: *
+Allow: /
+Sitemap: https://brosset.li/sitemap.xml
