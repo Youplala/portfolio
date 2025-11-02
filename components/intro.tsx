@@ -81,7 +81,7 @@ export default function Intro() {
       >
         <a
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
-          href="/ML_Resume.pdf"
+          href="https://storage.rxresu.me/clp9g022gck4a9hun5yo3nwor/resumes/ai-engineer.pdf"
           download
         >
           Resume{" "}
