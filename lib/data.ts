@@ -40,8 +40,6 @@ import onmangeouImg from "@/public/onmangeou_screenshot.png";
 import chartgptImg from "@/public/chartgpt_screenshot.png";
 import dripinImg from "@/public/dripin_screenshot.png";
 import fishWatchImg from "@/public/WorldMap.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -121,7 +119,7 @@ export const projectsData = [
     tags: ["NextJS", "TypeScript", "Tailwind", "Socket.io"],
     imageUrl: onmangeouImg,
     codeUrl: "https://github.com/Youplala/onmangeou",
-    demoUrl: "https://onmangeou-six.vercel.app/",
+    demoUrl: "https://onmangeou.brosset.li/",
   },
   {
     title: "ChartGPT",
@@ -130,13 +128,13 @@ export const projectsData = [
     tags: ["Python", "Dash", "Plotly", "LLMs", "HuggingFace"],
     imageUrl: chartgptImg,
     codeUrl: "https://github.com/Youplala/chartgpt",
-    demoUrl: "https://youplala-chartgpt.hf.space/",
+    demoUrl: "https://chartgpt.brosset.li/",
   },
   {
     title: "DripIn",
     description:
       "Virtual try-on app for any clothing piece using AI inpainting.",
-    tags: ["NextJS", "TypeScript", "HuggingFace", "Vercel"],
+    tags: ["NextJS", "TypeScript", "HuggingFace", "Gemini"],
     imageUrl: dripinImg,
     codeUrl: "",
     demoUrl: "https://dripin.app",
