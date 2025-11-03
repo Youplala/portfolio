@@ -43,7 +43,7 @@ export default function RootLayout({
       <Script
         src="https://ackee.brosset.li/tracker.js"
         data-ackee-server="https://ackee.brosset.li"
-        data-ackee-domain-id="f3ba92e6-2509-4f98-9bd8-0ea1168aabaa"
+        data-ackee-domain-id="d0e63ea0-de4c-498d-8448-cf6528f214bd"
         strategy="afterInteractive"
       />
     </html>
