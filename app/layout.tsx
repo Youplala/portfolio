@@ -6,6 +6,7 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const jetbrains_mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono" });
@@ -39,6 +40,12 @@ export default function RootLayout({
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>
+      <Script
+        src="https://ackee.brosset.li/tracker.js"
+        data-ackee-server="https://ackee.brosset.li"
+        data-ackee-domain-id="f3ba92e6-2509-4f98-9bd8-0ea1168aabaa"
+        strategy="afterInteractive"
+      />
     </html>
   );
 }
