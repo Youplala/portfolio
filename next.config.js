@@ -1,16 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  turbopack: {
+    root: __dirname,
+  },
   images: {
-    domains: ['avatars.githubusercontent.com'],
     remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
+      },
       {
         protocol: "https",
         hostname: "images.unsplash.com",
       },
     ],
-  },
-  experimental: {
-    serverActions: true,
+    qualities: [75, 95],
   },
 };
 
