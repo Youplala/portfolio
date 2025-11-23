@@ -11,7 +11,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.5);
+  const { ref } = useSectionInView("home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
@@ -63,10 +63,7 @@ export default function Intro() {
           animate={{ opacity: 1, y: 0 }}
         >
           <h1 className="text-2xl font-medium !leading-[1.5] sm:text-3xl font-mono">
-            <span className="font-bold">Hi, I'm Elie!</span> A software engineer
-            from Paris, with a passion for turning data into intelligent,
-            AI-powered applications. I'm always looking for new challenges and
-            opportunities to learn and grow.
+            <span className="font-bold">hi, i'm elie!</span> paris-based solo dev shipping <span className="text-gray-400">dripin</span>, an AI wardrobe organizer with fashion recommendations and virtual try-on.
           </h1>
         </motion.div>
       </div>
@@ -84,7 +81,7 @@ export default function Intro() {
           href="https://storage.rxresu.me/clp9g022gck4a9hun5yo3nwor/resumes/ai-engineer.pdf"
           download
         >
-          Resume{" "}
+          resume {" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 

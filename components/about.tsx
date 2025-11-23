@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("about");
 
   return (
     <motion.section
@@ -17,32 +17,21 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>about me</SectionHeading>
       <p className="mb-3 font-mono">
-        My journey into the world of technology began in Paris, driven by a
-        fascination with how data could be transformed into meaningful insights.
-        This passion led me to pursue a Master's degree in AI, where I dove deep
-        into machine learning.
-      </p>
-
-      <p className="mb-3 font-mono">
-        After my studies, I had the opportunity to work as a Machine Learning
-        Engineer, where I built models to predict illegal fishing activities with
-        the FishWatch project and created ChartGPT-Dash, an award-winning tool
-        that brings data visualization to life through natural language.
-      </p>
-
-      <p className="mb-3 font-mono">
-        These experiences solidified my love for building intelligent,
-        user-centric applications. I'm particularly excited by the potential of
-        Large Language Models (LLMs) to create more natural and powerful user
-        experiences. I'm always exploring new ideas and looking for the next
-        challenge to tackle.
+        paris is where i learned to ship ai/llm work for luxury retail, data
+        science research, and experimental visualization projects. i keep
+        building tools that help humans make sense of messy data, whether those are
+        compliance-friendly pipelines for high-end fashion or interactive charts that write
+        themselves.
       </p>
 
       <p className="font-mono">
-        When I'm not coding, you can find me bouldering in Paris or planning my
-        next travel.
+        during the day i own the data backbone, make talend jobs
+        hum, and keep flask-frontends responsive. nights and weekends belong to
+        side projects like chartgpt, chartgpt-dash, and fishwatch, each taught me
+        how to marry llms, classical ml, and observable experiences with a
+        relentless bias toward shipping fast.
       </p>
     </motion.section>
   );

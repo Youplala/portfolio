@@ -43,27 +43,27 @@ import fishWatchImg from "@/public/WorldMap.png";
 
 export const links = [
   {
-    name: "Home",
+    name: "home",
     hash: "#home",
   },
   {
-    name: "About",
+    name: "about",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "projects",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "skills",
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "experience",
     hash: "#experience",
   },
   {
-    name: "Contact",
+    name: "contact",
     hash: "#contact",
   },
 ] as const;
@@ -112,6 +112,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+    {
+    title: "dripin",
+    description:
+      "AI-powered wardrobe organizer with fashion recommendations and virtual try-on",
+    tags: ["Vite", "TypeScript", "Tailwind", "HuggingFace", "Gemini"],
+    imageUrl: dripinImg,
+    codeUrl: "",
+    demoUrl: "https://dripin.app",
+  },
   {
     title: "On mange où ?",
     description:
@@ -130,15 +139,7 @@ export const projectsData = [
     codeUrl: "https://github.com/Youplala/chartgpt",
     demoUrl: "https://chartgpt.brosset.li/",
   },
-  {
-    title: "DripIn",
-    description:
-      "Virtual try-on app for any clothing piece using AI inpainting.",
-    tags: ["NextJS", "TypeScript", "HuggingFace", "Gemini"],
-    imageUrl: dripinImg,
-    codeUrl: "",
-    demoUrl: "https://dripin.app",
-  },
+
   {
     title: "FishWatch",
     description:
